@@ -15,7 +15,7 @@ Return the node with the largest depth such that it contains all the deepest nod
 2. The values of each node are unique.
 
 ## 😳 😳 
-### This is exact same question as https://github.com/eMahtab/lowest-common-ancestor-of-deepest-leaves, but framed differently. Finding the smallest subtree with all the deepest nodes is exact same as finding lowest common ancestor of deepest leaves.
+## This is exact same question as https://github.com/eMahtab/lowest-common-ancestor-of-deepest-leaves, but framed differently. Finding the smallest subtree with all the deepest nodes is exact same as finding lowest common ancestor of deepest leaves.
 
 ### Examples : The root node of, Smallest subtree with all deepest leaves is highlighted in orange color.
 
