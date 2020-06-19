@@ -14,7 +14,8 @@ Return the node with the largest depth such that it contains all the deepest nod
 1. The number of nodes in the tree will be between 1 and 500.
 2. The values of each node are unique.
 
-😳 😳 This is exact same question as https://github.com/eMahtab/lowest-common-ancestor-of-deepest-leaves, but framed differently.
+## 😳 😳 
+**This is exact same question as https://github.com/eMahtab/lowest-common-ancestor-of-deepest-leaves, but framed differently.**
 
 ## Implementation : Iterative
 ```java
