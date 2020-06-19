@@ -17,6 +17,29 @@ Return the node with the largest depth such that it contains all the deepest nod
 ## 😳 😳 
 **This is exact same question as https://github.com/eMahtab/lowest-common-ancestor-of-deepest-leaves, but framed differently.**
 
+### Examples : The root node of, Smallest subtree with all deepest leaves is highlighted in orange color.
+
+#### e.g. 1
+![Smallest subtree with all deepest leaves](tree-1.JPG?raw=true "Smallest subtree with all deepest leaves")
+
+#### e.g. 2
+![Smallest subtree with all deepest leaves](tree-2.JPG?raw=true "Smallest subtree with all deepest leaves")
+
+#### e.g. 3
+![Smallest subtree with all deepest leaves](tree-3.JPG?raw=true "Smallest subtree with all deepest leaves")
+
+#### e.g. 4
+![Smallest subtree with all deepest leaves](tree-4.JPG?raw=true "Smallest subtree with all deepest leaves")
+
+#### e.g. 5
+![Smallest subtree with all deepest leaves](tree-5.JPG?raw=true "Smallest subtree with all deepest leaves")
+
+## Approach : Two pass through binary tree
+1. **First Pass :** In first pass we move from root to deepest leaves by Level order traversal using BFS. After first pass, `deepestLevelNodes` queue will have leaf nodes at the deepest level
+
+2. **Second Pass :** In second pass we move upwards in the tree, from nodes at the deepest level to root node. To move upwards, we add the parent of the node in `deepestLevelNodes` queue. We keep doing this untill there is only one TreeNode in `deepestLevelNodes` queue.
+
+
 ## Implementation : Iterative
 ```java
 /**
@@ -81,5 +104,5 @@ class Solution {
 }
 ```
 
-#References :
+# References :
 https://www.youtube.com/watch?v=QF7ZBH8mXHE
